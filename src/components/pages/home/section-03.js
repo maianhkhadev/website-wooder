@@ -6,6 +6,21 @@ import {  } from '@/store/actions'
 // BLOCK
 import BlockFeature from '@/components/blocks/block-feature'
 
+function RenderFeatures(props) {
+
+  let features = props.features.map((feature, index) =>
+    <div className="col-xl-3 mx-auto" key={ `feature-0${index}` }>
+      <BlockFeature feature={ feature } />
+    </div>
+  )
+
+  return (
+    <div className="row">
+      { features }
+    </div>
+  )
+}
+
 class Section extends Component {
 
   constructor(props) {
@@ -40,34 +55,23 @@ class Section extends Component {
 
   }
 
-  renderFeatures = () => {
-    let self = this
-
-    let features = self.state.features.map((feature) =>
-      <div className="col-xl-3 mx-auto">
-        <BlockFeature feature={ feature } />
-      </div>
-    )
-
-    return (
-      <div className="row">
-        { features }
-      </div>
-    )
-  }
-
   render() {
+    let self = this
 
     return (
       <section className="section-03">
         <div className="container">
           <div className="section-header">
-            <div className="section-title">wooder – is quality</div>
-            <div className="line"></div>
-            <p>We create unique design objects made of rare wood, specially under the order. Look at the short video about our work.</p>
+            <div className="row">
+              <div className="col-xl-6 mx-auto">
+                <h2 className="section-title">wooder – is quality</h2>
+                <div className="line"></div>
+                <p className="section-decs">We create unique design objects made of rare wood, specially under the order. Look at the short video about our work.</p>
+              </div>
+            </div>
           </div>
           <div className="section-content">
-            <renderFeatures />
+            <RenderFeatures features={ self.state.features }/>
           </div>
         </div>
       </section>

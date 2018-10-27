@@ -1,0 +1,18 @@
+@import './home/section-03';
+@import './home/section-04';
+@import './home/section-about-us';
+
+#page-home {
+
+  section {
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    h2.section-title {
+      font-size: 3rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}

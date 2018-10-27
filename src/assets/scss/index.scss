@@ -1,0 +1,13 @@
+@import './blocks';
+@import './pages';
+
+.btn-ecru {
+  color: #ffffff;
+  background-color: rgba(#bea67c, 0.8);
+  border-color: rgba(#bea67c, 0.8);
+
+  &:hover {
+    background-color: #bea67c;
+    border-color: #bea67c;
+  }
+}

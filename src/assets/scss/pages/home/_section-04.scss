@@ -1,0 +1,45 @@
+#page-home {
+
+  .section-04 {
+    background-image: url('~assets/images/page-home/section-04/bim.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .section-content {
+      position: relative;
+      border: 1px solid #bea67c;
+      padding: 8rem 12rem;
+
+      h2.section-title {
+        color: #bea67c;
+        margin-bottom: 2rem;
+      }
+
+      p {
+        color: #ffffff;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 2rem;
+      }
+
+      button {
+        font-size: 0.875rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-width: 0.125rem;
+        padding: 1rem 3rem;
+      }
+
+      .line-deco-01 {
+        position: absolute;
+        top: 50%;
+        right: 2.5rem;
+        width: 0.125rem;
+        height: 9rem;
+        transform: translateY(-50%);
+        background-color: #ffffff;
+      }
+    }
+  }
+}
