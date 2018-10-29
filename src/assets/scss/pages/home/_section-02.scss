@@ -1,0 +1,65 @@
+#page-home {
+
+  .section-02 {
+
+    h2.section-title {
+      color: #000000;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      color: #464646;
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+
+    .block-01 {
+      position: relative;
+      margin-bottom: 12rem;
+
+      .im-01 {
+        width: 100%;
+        height: auto;
+        box-shadow: 0 0 1rem 0.125rem rgba(0, 0, 0, 0.15);
+      }
+
+      .section-content {
+        padding-left: 14rem;
+      }
+    }
+
+    .block-02 {
+      position: relative;
+
+      .im-02 {
+        width: 100%;
+        height: auto;
+        box-shadow: 0 0 1rem 0.125rem rgba(0, 0, 0, 0.15);
+      }
+
+      .section-content {
+        text-align: right;
+        padding-right: 14rem;
+      }
+    }
+
+    .deco-01 {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 40rem;
+      height: auto;
+      transform: translateY(-50%);
+    }
+
+    .deco-02 {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 40rem;
+      height: auto;
+      transform: translateY(-50%);
+    }
+  }
+}

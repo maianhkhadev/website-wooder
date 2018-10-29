@@ -1,0 +1,19 @@
+.block-learn-more {
+  display: inline-block;
+
+  a {
+    display: inline-block;
+    color: #000000;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .line {
+    width: 2.5rem;
+    height: 0.25rem;
+    background-color: #bea67c;
+  }
+}
